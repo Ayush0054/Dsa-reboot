@@ -1,3 +1,4 @@
 # temp code runner
 /tempCodeRunnerFile.cpp
-/.exe
+*.exe
+
