@@ -10,6 +10,7 @@
         }
         int val = stk.top();
         stk.pop();
+          cout<<"calling insert in insert"<<endl;
         insert(stk,temp);
         stk.push(val);
         return;
@@ -20,7 +21,9 @@
            }
            int temp = stk.top();
            stk.pop();
+           cout<<"calling sort"<<endl;
            sort(stk);
+            cout<<"calling insert"<<endl;
            insert(stk,temp);
     }
     int main(){
@@ -37,3 +40,4 @@
     }
 return 0;
 }
+

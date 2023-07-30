@@ -7,8 +7,9 @@
         arr.push_back(temp);
         return;
      }
-     int val = arr[arr.size()-1];
+     int val = arr[arr.size()-1]; 
     arr.pop_back();
+          cout<<"calling insert in insert"<<endl;
      insert(arr,temp);
      arr.push_back(val);
      return;
@@ -19,7 +20,9 @@
        }
        int temp = arr[arr.size()-1];
        arr.pop_back();
+       cout<<"calling sort"<<endl;
        sort(arr);
+             cout<<"calling insert"<<endl;
        insert(arr,temp);
     }
     int main(){

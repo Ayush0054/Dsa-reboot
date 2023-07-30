@@ -8,7 +8,13 @@
         }
         int temp =s.top();
         s.pop();
+        cout<<k<<endl;
+                cout<<"stack "<<s.top()<<endl;
+        cout<<"delmd"<<endl;
         delmd(s,k-1);
+        cout<<k<<endl;
+        cout<<"stack "<<s.top()<<endl;
+        cout<<"push"<<endl;
         s.push(temp);
         return;
     }
