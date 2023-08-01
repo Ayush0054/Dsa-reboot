@@ -13,6 +13,12 @@
     hash[arr[i]] +=1;
  }
 
+// map<int,int>mpp;
+// for(int i=0;i<n;i++){
+//     cin>>arr[i];
+//     mpp[arr[i]]++;
+// }
+
     int q;
     cin>>q;
     while(q--){
