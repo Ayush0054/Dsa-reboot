@@ -35,3 +35,7 @@
     
 return 0;
 }
+//tc bc -> nlogn
+    //  wc-> n^2
+
+    // sc -> logn

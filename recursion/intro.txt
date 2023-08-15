@@ -5,4 +5,4 @@ make ip smaller ? but why ?
  ways to do 
  1) recursive tree - IP/OP method (decision)                  -> easy
  2) base condition - induction - hypothesis -> making IP smaller  -> med
- 3) choice diagram     -> hard
+ 3) choice diagram -> hard
