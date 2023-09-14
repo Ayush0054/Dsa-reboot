@@ -19,7 +19,7 @@
     
 //     }
 
-//better approach
+//better approach hashing
 //  int longSub(vector<int>&arr,long long k){
 //     map<long long,int>preSumMap;
 //          long long sum =0;
@@ -42,7 +42,7 @@
     
 //     }
 
-//best approach 
+//best approach  two pointer
 
  int longSub(vector<int>&arr,long long k){
         int left =0;
